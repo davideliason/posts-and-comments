@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/davideliason/posts-and-comments#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"

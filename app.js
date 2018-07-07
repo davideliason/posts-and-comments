@@ -1,5 +1,9 @@
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
+
+require('dotenv').config()
+
+var dbConnect = require('./db_config');
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html");
