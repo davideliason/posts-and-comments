@@ -1,0 +1,25 @@
+{
+  "name": "posts-and-comments",
+  "version": "0.1.0",
+  "description": "node express mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideliason/posts-and-comments.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "David Eliason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davideliason/posts-and-comments/issues"
+  },
+  "homepage": "https://github.com/davideliason/posts-and-comments#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
