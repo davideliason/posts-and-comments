@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var dbConnect = () => {
+var dbConnect = {
     //Set up default mongoose connection
     var mongoDB = process.env.MLAB_URI;
     mongoose.connect(mongoDB, { useNewUrlParser: true });
